@@ -8,7 +8,7 @@ const amountEll = document.querySelector('[name="amount"]');
 formEll.addEventListener('submit', e => {
   e.preventDefault();
   let delay = Number(delayEll.value);
-  let step = Number(delayEll.value);
+  let step = Number(stepEl.value);
   let amount = Number(amountEll.value);
 
   for (let i = 1; i <= amount; i += 1) {
