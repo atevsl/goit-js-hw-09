@@ -16,3 +16,27 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button[data-start],
+button[data-stop] {
+  background-color: transparent;
+  outline: solid 1px black;
+  border-radius: 5px;
+
+  height: 40px;
+  width: 100px;
+}
+.timer {
+  display: flex;
+  gap: 20px;
+}
+.field {
+  display: flex;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.value {
+  font-size: 30px;
+}
